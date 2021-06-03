@@ -4,10 +4,10 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
-function About() {
+function Home() {
     return (
       <div>
-        <Hero backgroundImage="/Selfimage.jpg">
+        <Hero backgroundImage="/images/Selfimage.jpg">
         </Hero>
         <Container style={{ marginTop: 30, color:"white" }}>
           <Row>
@@ -35,5 +35,5 @@ function About() {
     );
   }
   
-  export default About;
+  export default Home;
   
