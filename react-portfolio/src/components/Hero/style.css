@@ -1,5 +1,7 @@
 .hero {
-  height: 500px;
+  height: 20vw;
+  width:20vw;
+  border-radius: .5vw;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -20,14 +22,4 @@
 .hero * {
   position: relative;
   z-index: 2;
-}
-
-.hero h1, .hero h2 {
-  color: white;
-}
-
-.hero h1 {
-  font-size: 60px;
-  padding-top: 140px;
-  margin-top: 0;
 }

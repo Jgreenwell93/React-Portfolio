@@ -7,6 +7,7 @@ import {
 import Projects from "./pages/Projects";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import Resume from "./components/Resume";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 // import Wrapper from "./components/Wrapper";
@@ -14,12 +15,15 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
-      <div>
+      <div style={{ backgroundImage: "url(/Background.jpg)", }}>
         <Navbar />
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/work">
+          <Route path="/resume">
+            <Resume />
+          </Route>
+          <Route path="/projects">
             <Projects />
           </Route>
           <Route path="/contact">
