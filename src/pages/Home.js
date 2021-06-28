@@ -7,8 +7,6 @@ import Col from "../components/Col";
 function Home() {
     return (
       <div>
-        <Hero backgroundImage="/images/Selfimage.jpg">
-        </Hero>
         <Container style={{ marginTop: 30, color:"white" }}>
           <Row>
             <Col size="md-12">
@@ -31,6 +29,8 @@ function Home() {
             </Col>
           </Row>
         </Container>
+        <Hero backgroundImage="/images/Selfimage.jpg">
+        </Hero>
       </div>
     );
   }

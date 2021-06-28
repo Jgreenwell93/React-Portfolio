@@ -16,7 +16,6 @@ function App() {
   return (
     <Router>
       <div style={{ backgroundImage: "url(/images/Background.jpg)", }}>
-        <Navbar />
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
@@ -33,6 +32,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
+        <Navbar />
         <Footer />
       </div>
     </Router>
