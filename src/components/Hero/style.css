@@ -1,7 +1,7 @@
 .hero {
   height: 20vw;
   width:20vw;
-  border-radius: .5vw;
+  border-radius: 10vw;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -10,7 +10,7 @@
 .hero::after {
   content: "";
   display: block;
-  opacity: .4;
+  opacity: .3;
   position: absolute;
   top: 0;
   bottom: 0;
