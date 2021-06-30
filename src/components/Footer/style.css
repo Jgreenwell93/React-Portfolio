@@ -1,6 +1,9 @@
 .footer {
   background: #E5E5E5;
-  position: relative;
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
 }
 
 .footer span {

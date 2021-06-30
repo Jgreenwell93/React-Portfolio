@@ -7,7 +7,7 @@ import Col from "../components/Col";
 function Home() {
     return (
       <div>
-        <Container style={{ marginTop: 30, color:"white" }}>
+        <Container style={{color:"white" }}>
           <Row>
             <Col size="md-12">
               <h1>Joseph Greenwell</h1>
